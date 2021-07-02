@@ -157,7 +157,6 @@ h6,
 }
 
 p {
-  margin-top: 0;
   margin-bottom: 1rem;
 }
 
@@ -215,7 +214,7 @@ strong {
 
 small,
 .small {
-  font-size: 1.1em;
+  font-size: 0.9rem;
 }
 
 mark,
@@ -8085,7 +8084,7 @@ fieldset:disabled .btn {
 }
 
 .my-0 {
-  margin-top: 30rem !important;
+  margin-top: 17rem !important;
   margin-bottom: 0 !important;
 }
 
@@ -8192,17 +8191,24 @@ fieldset:disabled .btn {
 }
 
 .mb-4 {
-  margin-bottom: 1rem !important;
+  margin-bottom: 0.1rem !important;
   line-height: 3rem;
   font-weight: 700;
-  padding-bottom: 2.5rem;
-}
+  padding-bottom: 0.1rem;
+  letter-spacing: 0.1rem;
+  }
 
 .mb-5 {
   margin-bottom: 1rem !important;
   font-weight: normal;
   font-size: 1rem;
   line-height: 2;
+}
+.mb-6 {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  font-size: 2.5rem;
+  line-height: 3rem;
 }
 
 .mb-auto {
@@ -12163,9 +12169,9 @@ body {
 
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.5rem 3rem;
+  padding: 1.5rem 2rem;
   font-family: 'Spoqa Han Sans Neo', 'sans-serif';
-  font-size: 110%;
+  font-size: 100%;
   text-transform: none;
   letter-spacing: 0.3rem;
   border: 0;
@@ -12228,7 +12234,7 @@ body {
 .masthead h1,
 .masthead .h1 {
   font-family: 'Spoqa Han Sans Neo', 'sans-serif';
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-stretch: normal;
   font-style: normal;
   font-weight: bold;
@@ -12280,11 +12286,11 @@ body {
 .about-section {
   padding-top: 17rem;
   padding-bottom: 6rem;
-  background: #121417;
+  background: black;
 }
 
 .about-section p {
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
 }
 
 .portfolio-section {
